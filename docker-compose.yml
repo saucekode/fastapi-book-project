@@ -1,7 +1,7 @@
 services:
   fastapi:
     build: .
-    container_name: fastapi_book_project
+    container_name: fastapi-app
     ports:
       - "8000:8000"
     environment:
